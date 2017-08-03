@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: openstackDemo
+Version: 0.0.3.dev2
+Summary: OpenStack Demo
+Home-page: UNKNOWN
+Author: qz757
+Author-email: author@example.com
+License: UNKNOWN
+Description: learn openstack through create a project like openstack
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7

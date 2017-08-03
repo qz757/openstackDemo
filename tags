@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APIMapper	openstackDemo/api/v1/wsgi.py	/^class APIMapper(routes.Mapper):$/;"	c
+ControllerTest	openstackDemo/api/v1/router.py	/^class ControllerTest(object):$/;"	c
+JSONRequestDeserializer	openstackDemo/api/v1/wsgi.py	/^class JSONRequestDeserializer(object):$/;"	c
+JSONResponseSerializer	openstackDemo/api/v1/wsgi.py	/^class JSONResponseSerializer(object):$/;"	c
+LogFilter	openstackDemo/api/manage.py	/^class LogFilter(object):$/;"	c
+MyRouterApp	openstackDemo/api/v1/router.py	/^class MyRouterApp(wsgi.Router):$/;"	c
+Request	openstackDemo/api/v1/wsgi.py	/^class Request(webob.Request):$/;"	c
+Resource	openstackDemo/api/v1/wsgi.py	/^class Resource(object):$/;"	c
+Router	openstackDemo/api/v1/wsgi.py	/^class Router(object):$/;"	c
+ShowVersion	openstackDemo/api/manage.py	/^class ShowVersion(object):$/;"	c
+__call__	openstackDemo/api/manage.py	/^      def __call__(self,environ,start_response):$/;"	m	class:LogFilter	file:
+__call__	openstackDemo/api/manage.py	/^      def __call__(self,environ,start_response):$/;"	m	class:ShowVersion	file:
+__call__	openstackDemo/api/v1/wsgi.py	/^    def __call__(self, req):$/;"	m	class:Router	file:
+__call__	openstackDemo/api/v1/wsgi.py	/^    def __call__(self, request):$/;"	m	class:Resource	file:
+__init__	openstackDemo/api/manage.py	/^      def __init__(self,app):$/;"	m	class:LogFilter
+__init__	openstackDemo/api/manage.py	/^      def __init__(self,version):$/;"	m	class:ShowVersion
+__init__	openstackDemo/api/v1/router.py	/^      def __init__(self,mapper):$/;"	m	class:MyRouterApp
+__init__	openstackDemo/api/v1/router.py	/^    def __init__(self):$/;"	m	class:ControllerTest
+__init__	openstackDemo/api/v1/wsgi.py	/^    def __init__(self, controller, deserializer=None, serializer=None):$/;"	m	class:Resource
+__init__	openstackDemo/api/v1/wsgi.py	/^    def __init__(self, mapper):$/;"	m	class:Router
+_dispatch	openstackDemo/api/v1/wsgi.py	/^    def _dispatch(req):$/;"	m	class:Router
+_sanitizer	openstackDemo/api/v1/wsgi.py	/^    def _sanitizer(self, obj):$/;"	m	class:JSONRequestDeserializer
+_sanitizer	openstackDemo/api/v1/wsgi.py	/^    def _sanitizer(self, obj):$/;"	m	class:JSONResponseSerializer
+appname	openstackDemo/cmd/api.py	/^    appname = 'main'$/;"	v
+best_match_content_type	openstackDemo/api/v1/wsgi.py	/^    def best_match_content_type(self):$/;"	m	class:Request
+configfile	openstackDemo/cmd/api.py	/^    configfile = 'configure.ini' $/;"	v
+default	openstackDemo/api/v1/wsgi.py	/^    def default(self, request):$/;"	m	class:JSONRequestDeserializer
+default	openstackDemo/api/v1/wsgi.py	/^    def default(self, response, result):$/;"	m	class:JSONResponseSerializer
+dispatch	openstackDemo/api/v1/wsgi.py	/^    def dispatch(self, obj, action, *args, **kwargs):$/;"	m	class:Resource
+factory	openstackDemo/api/manage.py	/^      def factory(cls,global_conf,**kwargs):$/;"	m	class:LogFilter
+factory	openstackDemo/api/manage.py	/^      def factory(cls,global_conf,**kwargs):$/;"	m	class:ShowVersion
+factory	openstackDemo/api/v1/wsgi.py	/^    def factory(cls, global_conf, **local_conf):$/;"	m	class:Router
+from_json	openstackDemo/api/v1/wsgi.py	/^    def from_json(self, datastring):$/;"	m	class:JSONRequestDeserializer
+get_action_args	openstackDemo/api/v1/wsgi.py	/^    def get_action_args(self, request_environment):$/;"	m	class:Resource
+get_content_type	openstackDemo/api/v1/wsgi.py	/^    def get_content_type(self, allowed_content_types):$/;"	m	class:Request
+has_body	openstackDemo/api/v1/wsgi.py	/^    def has_body(self, request):$/;"	m	class:JSONRequestDeserializer
+routematch	openstackDemo/api/v1/wsgi.py	/^    def routematch(self, url=None, environ=None):$/;"	m	class:APIMapper
+server	openstackDemo/cmd/api.py	/^    server = make_server('0.0.0.0', 8000, wsgi_app)$/;"	v
+test	openstackDemo/api/v1/router.py	/^    def test(self,req):$/;"	m	class:ControllerTest
+to_json	openstackDemo/api/v1/wsgi.py	/^    def to_json(self, data):$/;"	m	class:JSONResponseSerializer
+wsgi_app	openstackDemo/cmd/api.py	/^    wsgi_app = loadapp('config:%s' % os.path.abspath(configfile), appname)$/;"	v
