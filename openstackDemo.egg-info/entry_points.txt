@@ -1,3 +1,0 @@
-[console_scripts]
-openstackDemo-api = openstackDemo.cmd.api:main
-
